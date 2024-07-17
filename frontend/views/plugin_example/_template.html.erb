@@ -1,0 +1,6 @@
+<% define_template "plugin_example", jsonmodel_definition(:archival_object) do |form| %>
+	<div class="subrecord-form-fields">
+		<p>Adding this plugin section is as simple as registering the plugin section in `frontend/plugin_init.rb`.</p>
+		<%= form.label_and_boolean "example_checkbox" %>
+	</div>
+<% end %>

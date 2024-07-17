@@ -1,0 +1,8 @@
+<% render_aspace_partial :partial => "plugin_example/template" %>
+
+<section id="<%= section_id %>" class="subrecord-form-dummy">
+  <h3><%= I18n.t("plugin_example._plural") %></h3>
+    <div class="subrecord-form-container">
+      <% context.emit_template("plugin_example") %>
+    </div>
+</section>

@@ -1,0 +1,5 @@
+en:
+  plugin_example:
+    _singular: A Plugin Example
+    _plural: Plugin Examples
+    example_checkbox: Checkbox?
